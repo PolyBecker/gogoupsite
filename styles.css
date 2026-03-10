@@ -71,6 +71,20 @@ ul {
   font-size: 0.875rem;
 }
 
+.btn-cta {
+  background: #F5D442;
+  color: #1a1a2e;
+  padding: 14px 40px;
+  border: 2px solid #1a1a2e;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.btn-cta:hover {
+  background: #e6c63a;
+  transform: translateY(-1px);
+}
+
 .btn-block {
   width: 100%;
   padding: 14px 32px;
@@ -81,16 +95,26 @@ ul {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid #eee;
-  padding: 12px 0;
+  background: #A1B4FB;
+  padding: 16px 0 0;
 }
 
 .navbar-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+}
+
+.navbar-wave {
+  width: 100%;
+  line-height: 0;
+  margin-top: 12px;
+}
+
+.navbar-wave svg {
+  width: 100%;
+  height: 40px;
+  display: block;
 }
 
 .logo {
@@ -110,13 +134,8 @@ ul {
 
 /* === Hero === */
 .hero {
-  padding: 60px 0 0;
-  background: #A1B4FB;
-  background-image: url('images/back_logo.svg');
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 100% auto;
-  padding-bottom: 80px;
+  padding: 60px 0 40px;
+  background: #fff;
 }
 
 .hero-inner {
@@ -135,18 +154,19 @@ ul {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 16px;
-  color: #fff;
+  color: #1a1a2e;
 }
 
 .hero-text h1 .sad {
-  color: #5C6BC0;
+  color: #1a1a2e;
 }
 
 .hero-sub {
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.9);
+  color: #444;
   margin-bottom: 28px;
   line-height: 1.5;
+  font-weight: 700;
 }
 
 .hero-illustration {
