@@ -99,16 +99,24 @@ ul {
   gap: 8px;
 }
 
-.logo-text {
-  font-weight: 700;
-  font-size: 1.25rem;
-  color: #1a1a2e;
+.logo-img {
+  height: 36px;
+  width: auto;
+}
+
+.logo-img-footer {
+  filter: brightness(0) invert(1);
 }
 
 /* === Hero === */
 .hero {
-  padding: 60px 0 40px;
-  background: #fff;
+  padding: 60px 0 0;
+  background: #A1B4FB;
+  background-image: url('images/back_logo.svg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% auto;
+  padding-bottom: 80px;
 }
 
 .hero-inner {
@@ -127,7 +135,7 @@ ul {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 16px;
-  color: #1a1a2e;
+  color: #fff;
 }
 
 .hero-text h1 .sad {
@@ -136,7 +144,7 @@ ul {
 
 .hero-sub {
   font-size: 1.125rem;
-  color: #555;
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 28px;
   line-height: 1.5;
 }
@@ -148,9 +156,9 @@ ul {
   justify-content: center;
 }
 
-.hero-svg {
+.hero-img {
   width: 100%;
-  max-width: 480px;
+  max-width: 520px;
 }
 
 /* === Mission === */
