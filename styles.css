@@ -94,24 +94,27 @@ ul {
   top: 0;
   z-index: 100;
   background: #A1B4FB;
-  padding: 10px 0 0;
+  padding: 0;
 }
 
 .navbar-inner {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-top: 30px;
 }
 
 .navbar-wave {
   width: 100%;
   line-height: 0;
-  margin-top: 12px;
+  margin-top: 0;
+  height: 125px;
 }
 
 .wave-section {
   width: 100%;
-  background: linear-gradient(to bottom, #A1B4FB 50%, #fff 50%);
+  height: 100%;
+  background: linear-gradient(to bottom, #A1B4FB 42%, #fff 42%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,9 +123,10 @@ ul {
 
 .wave-img {
   display: block;
-  width: 100%;
-  max-width: 900px;
-  height: auto;
+  width: 280px;
+  max-width: 280px;
+  height: 125px;
+  object-fit: contain;
 }
 
 .logo {
