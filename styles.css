@@ -94,39 +94,13 @@ ul {
   top: 0;
   z-index: 100;
   background: #A1B4FB;
-  padding: 10px 0 0;
+  padding: 22px 0 12px;
 }
 
 .navbar-inner {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
-
-.navbar-wave {
-  width: 100%;
-  line-height: 0;
-  margin-top: 12px;
-  --wave-height: clamp(56px, 14vw, 120px);
-  height: var(--wave-height);
-}
-
-.wave-section {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, #A1B4FB 42%, #fff 42%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.wave-img {
-  display: block;
-  width: 100%;
-  max-width: none;
-  height: 100%;
-  object-fit: cover;
 }
 
 .logo {
@@ -984,11 +958,6 @@ ul {
 
 /* Mobile */
 @media (max-width: 600px) {
-  .navbar-wave {
-    margin-top: 8px;
-    --wave-height: 64px;
-  }
-
   .container {
     padding: 0 16px;
   }
